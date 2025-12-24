@@ -1,0 +1,80 @@
+#100 DAYS OF LEARNING:
+
+DAY-1:
+what is JAVA?
+Java is a high-level, object-oriented programming language used to build secure, fast, and portable applications.
+Java is a programming language that lets you write code once and run it anywhere.
+This is possible because Java programs run on the Java Virtual Machine (JVM), not directly on the operating system.
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+
+
+why java is created?
+Java was created to solve real problems that older programming languages could not handle well.
+Java was created in 1991 by James Gosling and his team at Sun Microsystems.
+Create a language that works on ANY device, ANY operating system, without rewriting the code.
+Problems Before Java
+
+Before Java, languages like C and C++ had major issues:
+Platform Dependency
+Programs written for Windows wouldn’t run on Linux or Mac
+Developers had to rewrite code for each OS
+Complex & Unsafe
+Manual memory management
+Easy to cause crashes and security bugs
+Not Internet-Friendly
+Old languages were not designed for web or network-based applications
+  
+  Problems Java Solved
+1. Platform Independence
+Java introduced the idea of:
+Write Once, Run Anywhere
+How? Java code → Compiled to bytecode
+Bytecode runs on JVM
+JVM exists for every OS
+2. Security
+Java removed dangerous features:
+No pointers
+No direct memory access
+Strong runtime checks
+That’s why Java is used in banking and enterprise systems
+3. Simplicity
+Java was designed to be: Easier than C++
+Cleaner syntax
+Automatic memory management (Garbage Collector)
+4. Internet & Network Ready
+Java was built when the internet was growing:
+Built-in support for networking
+Secure execution in browsers (applets earlier)
+5. Object-Oriented Design
+Java promotes:
+Reusable code
+Easy maintenance
+Large project management
+
+What is the biggest problem it solved?
+Platform dependency — the need to rewrite the same program for different operating systems.
+The Core Problem (Before Java)
+Before Java:
+A program written on Windows would not run on Linux or macOS
+Developers had to:
+Rewrite code
+Recompile separately
+Maintain multiple versions
+This caused:
+More time
+Higher cost
+More bugs
+  How Java Solved It
+Java introduced a revolutionary idea:
+Write Once, Run Anywhere
+Instead of running directly on the OS:
+Java code is compiled into bytecode
+Bytecode runs on Java Virtual Machine (JVM)
+JVM exists for every OS
+Same program runs everywhere without change
