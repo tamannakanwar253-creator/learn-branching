@@ -5,13 +5,13 @@ what is JAVA?
 Java is a high-level, object-oriented programming language used to build secure, fast, and portable applications.
 Java is a programming language that lets you write code once and run it anywhere.
 This is possible because Java programs run on the Java Virtual Machine (JVM), not directly on the operating system.
-
+```blash
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
-
+```
 
 
 why java is created?
