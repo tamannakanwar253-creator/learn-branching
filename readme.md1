@@ -78,3 +78,27 @@ Java code is compiled into bytecode
 Bytecode runs on Java Virtual Machine (JVM)
 JVM exists for every OS
 Same program runs everywhere without change
+
+    java simple program with explanation:
+```blash
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+class HelloWorld:
+A class is a blueprint. Java programs must be written inside a class.HelloWorld is the class name.
+public static void main(String[] args):
+This is the main method. 
+public → JVM can access it 
+static → No object needed to run 
+void → Returns nothing 
+main → Program starts here 
+String[] args → Command-line arguments Without this method, Java program will not run.
+System.out.println("Hello, World!");:
+Prints text on the screen System → Java class out → Output stream println → Print + new line
+```blash
+Hello, World!
+```
+
